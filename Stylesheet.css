@@ -113,6 +113,26 @@ a:hover {
     padding-left: 50px;
     padding-right: 50px;
 }
+.abt-text{
+    display: flex;
+    flex-direction: column;
+}
+.text1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    display: inline-block;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    list-style-type: circle;
+}
+.ullist{
+    padding-bottom: 20px;
+}
 .about-me-left {
     display: flex;
     flex-direction: column;
