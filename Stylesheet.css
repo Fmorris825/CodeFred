@@ -33,6 +33,7 @@ ul {
     align-items: center;
     list-style-type: none;
     gap: 24px;
+    text-shadow: 2px 3px 5px white;
 }
 
 a {
@@ -65,6 +66,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    text-shadow: 2px 3px 5px white;
 }
 
 .slider {
@@ -122,6 +124,8 @@ a:hover {
 .abt-text{
     display: flex;
     flex-direction: column;
+    font-size: 34px;
+    text-shadow: 2px 3px 5px white;
 }
 .text1{
     display: flex;
@@ -248,11 +252,6 @@ img {
     width: 345px;
     height: 240px;
     border-radius: 4px;
-}
-
-.abt-text {
-    font-weight: 800;
-    text-shadow: 0 0 3px #FFFF;
 }
 /*Grow Animation*/
 .grow {
