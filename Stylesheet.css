@@ -49,6 +49,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 35px;
 }
 .content {
     width: 50vw;
