@@ -148,6 +148,28 @@ a:hover {
     align-items: center;
     font-size: 18px;
 }
+/*Text1 Animation*/
+.reveal {
+    position: relative;
+    opacity: 0;
+  }
+  
+  .reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 1s ease-in;
+  }
+@keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
 .text2{
     display: inline-block;
     flex-direction: column;
@@ -300,6 +322,35 @@ img {
     0 22.3px 17.9px rgba(0, 0, 0, 0.072),
     0 41.8px 33.4px rgba(0, 0, 0, 0.086),
     0 100px 80px rgba(0, 0, 0, 0.12);
+}
+/*Fade left*/
+.active.fade-left {
+    animation: fade-left 1s ease-in;
+}
+@keyframes fade-left {
+    0% {
+      transform: translateX(-100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+  
+/*Fade right*/
+.active.fade-right {
+    animation: fade-right 1s ease-in;
+}
+@keyframes fade-right {
+    0% {
+      transform: translateX(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
 }
 /*Grow Animation*/
 .grow {
