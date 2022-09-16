@@ -275,6 +275,7 @@ span:nth-child(8) {
     border-radius: 4px;
     flex-direction: column;
     width: 100%;
+    
 }
 
 .card-container {
@@ -288,8 +289,8 @@ span:nth-child(8) {
 }
 
 img {
-    width: 345px;
-    height: 240px;
+    width: 365px;
+    height: 270px;
     border-radius: 4px;
 }
 
@@ -299,6 +300,8 @@ img {
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
@@ -315,6 +318,8 @@ img {
     flex-direction: row-reverse;
     align-items: center;
     padding: 50px 70px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     box-shadow:
     0 2.8px 2.2px rgba(0, 0, 0, 0.034),
     0 6.7px 5.3px rgba(0, 0, 0, 0.048),
